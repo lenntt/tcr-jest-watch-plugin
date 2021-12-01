@@ -1,0 +1,22 @@
+{
+  "name": "tcr-jest-watch-plugin",
+  "version": "1.0.0",
+  "description": "A friendly version of Test && Commit || Revert",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Lennart Tange",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lenntt/tcr-jest-watch-plugin.git"
+  },
+  "homepage": "https://github.com/lenntt/tcr-jest-watch-plugin#readme",
+  "dependencies": {
+    "simple-git": "^2.47.1"
+  },
+  "devDependencies": {
+    "jest": "^27.4.3"
+  }
+}
