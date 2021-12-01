@@ -1,6 +1,6 @@
 {
   "name": "tcr-jest-watch-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A friendly version of Test && Commit || Revert",
   "main": "index.js",
   "scripts": {
