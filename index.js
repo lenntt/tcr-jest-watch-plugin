@@ -7,7 +7,7 @@ module.exports = class TCRJestWatchPlugin {
             if(results.success) {
                 return git.add('.').then(() => {
                     // logs a warning, see https://github.com/steveukx/git-js/issues/694
-                    return git.commit(null, {
+                    return git.commit([], {
                         // append to previous commit
                         '--amend': null, 
                         // keep the previous commit message
