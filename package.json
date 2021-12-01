@@ -4,7 +4,8 @@
   "description": "A friendly version of Test && Commit || Revert",
   "main": "index.js",
   "scripts": {
-    "test": "jest --watchAll"
+    "test": "echo \"run watch instead\"",
+    "watch": "jest --watchAll"
   },
   "author": "Lennart Tange",
   "license": "MIT",
